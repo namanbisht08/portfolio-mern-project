@@ -31,8 +31,8 @@ app.post("/contactMe", async (req, res) => {
 });
 
 //mongoose.connect('<********* ENTER YOUR CONNECTION STRING HERE ***********>',
-mongoose.connect('mongodb+srv://namanbisht08:namsb54321@mernstackcluster.x1yo9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-  {
+
+{
     useUnifiedTopology: true,
     useNewUrlParser: true
   }).then(() => {
